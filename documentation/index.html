@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title>:: Documentation</title>
+<link rel="icon" href="icon.ico" type="image/x-icon">  
+
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,500' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/normalize.css"> 
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/d-style.css">
+</head>
+
+<body>
+
+<style>
+ul.feature_title {
+	list-style-type: none;
+	padding-left: 0;
+}
+ul.feature_title li {
+	background:#f8f7f7;
+	padding-left: 10px;
+	margin-bottom:5px;
+	border-radius:6px;
+	font-weight: 500;
+	line-height: 40px;
+	font-size: 15px;
+}
+ul.feature_title li a {
+	color: #727272;
+}
+ul.feature_title li a i {
+	color: #727272;
+	padding-right: 10px;
+}
+ul.feature_title li:hover{
+	background:#e4e4e4
+}
+ul.feature_list{
+	/* list-style:none; */
+	padding-left:0;
+}
+
+ul.feature_list li{
+	padding-left: 25px;
+	margin-bottom:5px;
+	font-weight: 500;
+	line-height: 28px;
+	font-size: 15px;
+}	
+
+span.lightbox {
+	margin-top:10px;
+	margin-bottom:10px;	
+}
+span.lightbox img {
+	max-width: 100%;
+    height: auto;
+	border: 1px solid white;
+	box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+	margin: 0px 20px 0px 0px;
+}
+
+#lightbox {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .8);
+  display: none;
+}
+
+#lightbox.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+  padding: 1px;
+  background-color: black;
+  border: 1px solid black;
+    box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 3px solid white;
+	box-shadow: 0px 0px 2px rgba(0,0,0,.3);
+}
+
+.img-fluid2 {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+</style>
+
+<div class="wrapper">
+    
+    <header class="main-header">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-6">
+                    <h2>Documentation</h2>
+                </div>
+                <div class="col-6 text-right">
+                    <a href="https://nemosofts.com/" class="btn btn-blue">Nemosofts.com</a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="left-sidebar d-none d-md-block">
+        <div class="card">
+            <div class="card-body">
+                <h3>-- Main Navigation</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#start" ><i class="fa fa-angle-right"></i><span>Start</span></a></li>
+                    <li><a href="#Studio"><i class="fa fa-angle-right"></i><span>Which Android Studio version is needed?</span></a></li>
+                    <li><a href="#Studio_open"><i class="fa fa-angle-right"></i><span>How to open the project in Android Studio?</span></a></li>
+                    <li><a href="#package_name"><i class="fa fa-angle-right"></i><span>How to change the package name?</span></a></li>  
+                    <li><a href="#app_name"><i class="fa fa-angle-right"></i><span>How to change app name?</span></a></li>
+                    <li><a href="#admob"><i class="fa fa-angle-right"></i><span>How to change admob Or Fbads?</span></a></li>
+                    <li><a href="#onesignal"><i class="fa fa-angle-right"></i><span>How To Change OneSignal id?</span></a></li> 
+                    <li><a href="#splash"><i class="fa fa-angle-right"></i><span>How to change Application Icon'?</span></a></li>
+                    <li><a href="#signapk"><i class="fa fa-angle-right"></i><span>How to Generate Signed APK?</span></a></li>    
+                    <li><a href="#thank_you"><i class="fa fa-angle-right"></i><span>THANK YOU!</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row content-area">
+                <div class="col extra-col"></div>
+                <div class="col-lg-9 col-md-8 right-cnt">
+
+                    <div id="start">
+                        <div class="card">
+                            <div class="card-body">
+                                <p><img alt="" src="doc/banner.jpg" class="img-fluid2"></p>
+                                <style>
+                                header.major h2 {
+                                    color: #000000;
+                                    font-size: 3em;
+                                    line-height: 60px;
+                                }
+                                </style>
+                                <header class="major">
+                                    <h2>Android Notes App</h2>
+                                  </header>
+
+                                  <p class="prepend-top"> <strong> Created: 01/01/2021<br>
+                                    Company: Nemosofts - Sri Lanka<br>
+                                    Contact: <a href="https://codecanyon.net/user/nemosofts" style="color:#3c55d1" target="_blank">CodeCanyon Profile</a> </strong> </p>
+
+                                  <p class="prepend-top append-0">Thank you for purchasing the app. If you have any questions that are beyond the scope of this help file, please feel free to message me my user page contact form <a href="https://codecanyon.net/user/nemosofts" style="color:#3c55d1" target="_blank">here</a>. Thanks so much!</p>
+
+                                
+                                                   
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="card" id="Studio">
+                        <div class="card-body">
+                            
+                            <h2>Which Android Studio version is needed? </h2>
+                            <p> Latest Android Studio version is recommended, which can be downloaded from here:<br>
+                            <a style="color:#3c55d1" href="http://developer.android.com/intl/es/sdk/index.html" target="_blank">http://developer.android.com/intl/es/sdk/index.html</a> </p>
+                            
+                            <p><img alt="" src="doc/images/android_studio/Screenshot_1.png" class="img-fluid"></p>
+                            <p><img alt="" src="doc/images/android_studio/Screenshot_2.png" class="img-fluid"></p>    
+
+                        </div>
+                    </div>
+
+
+                    <div class="card" id="Studio_open">
+                        <div class="card-body">
+                            <h2>How to open the project in Android Studio? </h2>
+                            <p>
+                            </p><ol>
+                              <li>Open Android Studio &gt; Open an Existing Android Studio Project &gt; Select Your Project build.gradle file &gt; ok </li>
+                              <li> Select Project </li>
+                            </ol>
+                            <p></p>
+
+                            <p><img alt="" src="doc/images/And_pro/Screenshot_1.png" class="img-fluid"></p>
+                            <p><img alt="" src="doc/images/And_pro/Screenshot_2.png" class="img-fluid"></p>
+                            <p><img alt="" src="doc/images/And_pro/Screenshot_3.png" class="img-fluid"></p>
+
+                        </div>
+                    </div>
+
+                
+                    <div class="card" id="package_name">
+                        <div class="card-body">
+                            <h2>How to change the package name? </h2>
+                        
+                            <p><img alt="" src="doc/images/app_det/Screenshot_1.png" class="img-fluid"></p>
+                            
+                        </div>
+                    </div>
+
+                    
+
+
+                    <div class="card" id="app_name">
+                        <div class="card-body">                     
+                            <h2>How to change app name? </h2>
+                            <p>
+                            </p><ol>
+                            <ol>
+                                <li>Open Android Studio &gt;Yor Project Name&gt; res &gt; values &gt; strings.xml</li>
+                                <li>Enter your app name inside <b>"app_name"</b> string tag:<br>
+                                <code>&lt;string name="app_name"&gt;<b>Yor App Name</b>&lt;/string&gt;</code></li>
+                            </ol>
+                            <br>
+                            <p><img alt="" src="doc/images/Screenshot_9.png" class="img-fluid"></p>
+                        </div>
+                    </div>
+
+                    <div class="card" id="admob">
+                        <div class="card-body">                     
+                            <h2>How to change admob Or Fbads?</h2>
+                        
+                            <br>
+                            <p><img alt="" src="doc/images/app/Screenshot_2.png" class="img-fluid"></p>
+                            <p><img alt="" src="doc/images/app/Screenshot_1.png" class="img-fluid"></p>
+                        </div>
+                    </div>
+
+                    <div class="card" id="onesignal">
+                        <div class="card-body">
+                            <h2>How To Change OneSignal id </h2>
+                            <li><b><a href="https://app.onesignal.com/" target="_blank">https://app.onesignal.com/</a></b>
+                                <br><br>
+                                <p><img alt="" src="doc/images/Screenshot_13.png" class="img-fluid"></p>
+                                <p><img alt="" src="doc/images/Screenshot_14.png" class="img-fluid"></p>
+                        </div>
+                    </div>
+
+
+                    <div class="card" id="splash">
+                        <div class="card-body">
+                            <h2>How to change 'Splash Screen, Application Icon </h2>
+                            <a href="https://youtu.be/kpGEtRUoVgk" class="btn btn-blue">Opne video tutorial </a>
+                            <br>
+                        
+                            <br>
+                                <br>
+                                <iframe width="100%" height="600" src="https://www.youtube.com/embed/kpGEtRUoVgk" frameborder="0" allowfullscreen=""></iframe>
+                                <br>
+                                <br>
+                            <ol>
+
+                        </div>
+                    </div>
+
+
+                    <div class="card" id="signapk">
+                        <div class="card-body">
+                            <section id="signapk">
+                                <div class="container"> <br>
+                                  <h2>How to Generate Signed APK?</h2>
+                                  <p><b>Create New Keystore</b></p>
+                                  <ul class="feature_list">
+                                    <li>Click Build > Generate Signed APK</li><br>
+                                    <p><img alt="" src="doc/images/signapk/signapk_1.png" class="img-fluid"></p>
+                                    <li>Select and click Next</li><br>
+                                    <p><img alt="" src="doc/images/signapk/signapk_2.png" class="img-fluid"></p>
+                                    <li>Click On Create New or if you are updating app click choose existing</li><br>
+                                    <p><img alt="" src="doc/images/signapk/signapk_3.png" class="img-fluid"></p>
+                                    <li>Select Keystore Path</li>
+                                    <li>Enter Keystore password and confirm password</li>
+                                    <li>Enter any name for alias</li>
+                                    <li>Enter key password and confirm password</li>
+                                    <li>Choose Validity Years</li>
+                                    <li>Fill rest of the details and click OK</li><br>
+                                    <p><img alt="" src="doc/images/signapk/signapk_4.png" class="img-fluid"></p>
+                                    <li>Enter keystore password, alias name and key password and click next</li><br>
+                                    <p><img alt="" src="doc/images/signapk/signapk_5.png" class="img-fluid"></p>
+                                    <li>Choose the signed apk destination</li>
+                                    <li>Tick the signatures</li>
+                                    <li>Click Finish</li><br>
+                                    <p><img alt="" src="doc/images/signapk/signapk_6.png" class="img-fluid"></p>             
+                                    <p><img alt="" src="doc/images/signapk/signapk_7.png" class="img-fluid"></p>      
+                                  </ul>
+                                  <p><b style="color:#ff0000;font-size:18px;">Note :- Please save the keystore and remember the keystore password, alias and key password. If you want to update app in future you have to use this keystore. With new keystore you cannot update your app</b></p>
+                                </div>
+                              </section>
+                        </div>
+                    </div>
+
+
+                    <div class="card" id="thank_you">
+                        <div class="card-body">
+                            <h2><strong>THANK YOU</strong></h2>
+                            <p>If you like our app, we will highly appreciate if you can provide us a rating of 5. You can rate us from your</p>
+                            <p> Codecanyon Menu > Download page.</p>
+                                
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts -->
+<script src="js/jquery-2.1.4.min.js"></script> <!-- jQuery -->
+<script src="js/bootstrap.min.js"></script>  <!-- Bootstrap -->
+
+
+<script>
+const lightbox = document.createElement("div");
+lightbox.id = "lightbox";
+document.body.appendChild(lightbox);
+
+const images = document.querySelectorAll("img");
+images.forEach((image) => {
+  image.addEventListener("click", (e) => {
+    lightbox.classList.add("active");
+    const img = document.createElement("img");
+    img.src = image.src;
+    while (lightbox.firstChild) {
+      lightbox.removeChild(lightbox.firstChild);
+    }
+    lightbox.appendChild(img);
+  });
+});
+
+lightbox.addEventListener("click", (e) => {
+  if (e.target !== e.currentTarget) return;
+  lightbox.classList.remove("active");
+});
+</script>
+
+</body>
+</html>
